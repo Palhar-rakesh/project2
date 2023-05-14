@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+text-decoration: none;
+outline: none;
+}
+.showcase{
+  /* background-image: url(images/rakesh0.jpg); */
+  background-color: rgb(8, 8, 8);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+.btn-md{
+  display: inline-block;
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+  padding: 8px 36px;
+  margin-top: 20px;
+  border-radius: 50px;
+  transition: all 0.3 ease;
+
+}
+.btn-md:hover{
+  color: aqua;
+  background: none;
+}
+.container{
+  max-width: 1300px;
+  padding: 0 100px;
+  margin:  auto;
+}
+.text-center{
+  text-align: center;
+}
+.m-heading{
+  font-size:37px;
+  margin-bottom: 12px;
+  color: gold;
+}
+.title::before{
+  content: '';
+  background: black;
+  height: 2px;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  transform: translateY(44px);
+}
+.title::after{
+  content: '';
+  background: black;
+  height: 7px;
+  width: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(1px);
+}
+.about .about-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  transform: translateY(-60px);
+  
+}
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  padding: 35px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo img{
+  height: 50px;
+  width: 80px;
+}
+.navbar ul li{
+  color:rgb(254, 246, 4);
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.menu li a{
+  color:red;
+}
+#icon{
+  color:aqua;
+  width:30px;
+  height:30px;
+}
+.fa-solid{
+  color:rgb(159, 243, 5);
+  padding:5px;
+}
+.navbar ul li a{
+  color: rgb(10, 237, 237);
+  font-weight: bold;
+  transition: all 0.5 ease;
+  
+}
+.navbar ul li a:hover{
+  color: blue;
+}
+.showcase-text{
+  max-width: 800px;
+  padding-top: 250px;
+  padding-left: 120px;
+  color: azure;
+}
+.showcase-text .text-1{
+  font-size: 27px;
+}
+.showcase-text .text-2{
+  font-size: 75px;
+  font-weight: 700;
+}
+.showcase-text .text-3{
+  font-size: 40px;
+  margin: 5px 0 ;
+  font-weight: 700;
+}
+.showcase-img img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 500px;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+  overflow: hidden;
+  padding-top: 120px;
+}
+
+
+
+/* about section design */
+#about{
+  background: black;
+}
+.about .title::before{
+  background-color: yellow;
+}
+.about .title::after{
+  background: yellow;
+}
+.about h1{
+  color: chartreuse;
+  text-align: center;
+  font-size: 80px;
+  transform: translateY(20px);
+  opacity: 0.1;
+  padding-top: -20px;
+}
+.about h5{
+  font-weight: 700;
+  transform: translateY(-65px);
+  
+}
+.about .about-content .column{
+  margin-top: 40px;
+}
+.about .about-content .left{
+  width: 55%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.about .about-content .left img{
+  height: 450px;
+  width: 450px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.about .about-content .right{
+  width: 45%;
+  color: aliceblue;
+}
+.about .about-content .right .text{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.about .about-content .right p{
+   text-align: justify;
+   line-height: 1.2;
+
+}
+.about .about-content .right .table{
+  width: 500px;
+  padding: 10px 0;
+  margin-left: 0;
+}
+.about .about-content .right .table td{
+  padding: 10px;
+}
